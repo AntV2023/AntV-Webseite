@@ -1,0 +1,193 @@
+/* CSS ist stilistische Sprache*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  background-color: rgba(129, 75, 9, 0);
+  background-image:url(bg6.jpg);
+  background-size:auto;
+  background-repeat:repeat;
+}
+img.displayed{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.btn-dark {
+  background-color:white;
+  padding: 2px; 
+  border: solid 2px rgb(255, 255, 255); 
+} 
+.youtube{
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  color: #fff;
+}
+/*a:hover {
+  text-decoration: none;
+}*/
+.container {
+  width: 250px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0);
+  /*центрируем все по середине*/
+  text-align: center;
+  
+}
+ input[type="text"], input[type="password"]{
+  width: 200px;
+  height: 30px;
+  font-size: 18px;
+  margin-bottom: 2px;
+  border-radius: 5px;
+  padding-left: 60px;
+ }
+.pass-submit {
+  padding: 1px 30px;
+  margin: 20px 0 20px 0;
+  font-size: 15px;
+  color: #080808;
+  background-color: #fff;
+  border: none;
+  border-bottom: 4px solid #ff0000;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.pass-submit:hover{
+  transition: all 0.5s;
+  background: #fff;
+  color: #ff0000;
+}
+
+P, H1, H2 { 
+  text-align: center;
+}
+
+ footer {
+  margin-top: 80px;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(6, 6, 6);
+}
+.video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: white;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: white;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #fa0707;
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #000000;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  color: rgb(255, 255, 255);
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-image:url(bg6.jpg);
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #f90a0a;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid white;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
